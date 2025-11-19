@@ -2,17 +2,17 @@
 
 Swifty helpers for working with AWS Lambda.
 
-## 📱 Requirements
+## Requirements
 
 Swift 5.9 toolchain with Swift Package Manager.
 
-## 🖥 Installation
+## Installation
 
 Lambda Extras is distributed using the [Swift Package Manager](https://swift.org/package-manager). To install it into a project, add it as a dependency within your `Package.swift` manifest:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Mobelux/swift-lambda-extras.git", from: "0.1.0")
+    .package(url: "https://github.com/mgacy/swift-lambda-extras.git", from: "0.1.0")
 ]
 ```
 
@@ -28,7 +28,7 @@ Where `<product>` is one of the following:
 - `LambdaExtras`
 - `LambdaMocks`
 
-## ⚙️ Usage
+## Usage
 
 This package is intended to support the creation of lambdas composed of 2 parts:
 
