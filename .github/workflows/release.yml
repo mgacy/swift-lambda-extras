@@ -14,7 +14,7 @@ on:
 jobs:
   test:
     name: Test
-    uses: Mobelux/swift-lambda-extras/.github/workflows/test.yml@main
+    uses: mgacy/swift-lambda-extras/.github/workflows/test.yml@main
 
   release:
     name: Release
